@@ -1,0 +1,589 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/manso/Uproject/challenge_5
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+56674
+Successfully changed project path to: C:/Users/manso/Uproject/challenge_5
+C:/Users/manso/Uproject/challenge_5
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27960] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 3966970767 [EditorId] 3966970767 [Version] 1048832 [Id] WindowsEditor(7,Mskoll) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27960] Host "[IP] 192.168.100.8 [Port] 0 [Flags] 2 [Guid] 3966970767 [EditorId] 3966970767 [Version] 1048832 [Id] WindowsEditor(7,Mskoll) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 24.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/manso/Uproject/challenge_5/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5935 MB
+    Driver:   31.0.15.3640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.030604 seconds.
+- Loaded All Assemblies, in  1.496 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 639 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.552 seconds
+Domain Reload Profiling: 3042ms
+	BeginReloadAssembly (583ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (153ms)
+	RebuildNativeTypeToScriptingClass (34ms)
+	initialDomainReloadingComplete (189ms)
+	LoadAllAssembliesAndSetupDomain (530ms)
+		LoadAssemblies (579ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (517ms)
+			TypeCache.Refresh (515ms)
+				TypeCache.ScanAssembly (476ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1386ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (944ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.584 seconds
+Refreshing native plugins compatible for Editor in 5.47 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.405 seconds
+Domain Reload Profiling: 2984ms
+	BeginReloadAssembly (333ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (104ms)
+	LoadAllAssembliesAndSetupDomain (1042ms)
+		LoadAssemblies (766ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (495ms)
+			TypeCache.Refresh (407ms)
+				TypeCache.ScanAssembly (361ms)
+			ScanForSourceGeneratedMonoScriptInfo (60ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1406ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1044ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (720ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 22.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5751 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (0.8 MB). Loaded Objects now: 6212.
+Memory consumption went from 230.3 MB to 229.5 MB.
+Total: 11.462700 ms (FindLiveObjects: 0.775800 ms CreateObjectMapping: 0.654400 ms MarkObjects: 8.197000 ms  DeleteObjects: 1.832800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/ViteAereaController.cs: 9da9806b32d4a345f7835e5451843b96 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GliderFlyingSystem.cs: 23960c3b37041279466c29cfb323afe1 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/GliderController.cs: a3a552c97ff661b909a1fbac78c136f3 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1368782.360972 seconds.
+  path: Assets/Ch15_nonPBR@Unarmed Idle.fbx
+  artifactKey: Guid(0db5d41a6287e5445a5617f5d0a990fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Ch15_nonPBR@Unarmed Idle.fbx using Guid(0db5d41a6287e5445a5617f5d0a990fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdd9dd8d85c1e4aae37cbb1421f4964b') in 1.429701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset
+  artifactKey: Guid(69a525efa7e6472eab268f6ea605f06e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to Orange - Vertical.asset using Guid(69a525efa7e6472eab268f6ea605f06e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f991b97e0e5c8f37027de7fdb3bec236') in 0.451868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/FlyingSystem/AircraftFlyingSystem/Demo/Scenes/AircraftFlyingSystem.unity
+  artifactKey: Guid(c49c8a5d6657bc84198b918eb9bcdd29) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FlyingSystem/AircraftFlyingSystem/Demo/Scenes/AircraftFlyingSystem.unity using Guid(c49c8a5d6657bc84198b918eb9bcdd29) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/FlyingSystem/AircraftFlyingSystem/Demo/Scenes/AircraftFlyingSystem.unity additively'
+Loaded scene 'Assets/FlyingSystem/AircraftFlyingSystem/Demo/Scenes/AircraftFlyingSystem.unity'
+	Deserialize:            12.660 ms
+	Integration:            65.828 ms
+	Integration of assets:  1.909 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   80.418 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '755ae759e39fb9e33df67e13a0b9d93e') in 0.211721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 94
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FlyingSystem/Demo_Main/UI/Joystick/JoystickBackground.png
+  artifactKey: Guid(8381d8c3ed310544fa78a9a59e10093d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/Demo_Main/UI/Joystick/JoystickBackground.png using Guid(8381d8c3ed310544fa78a9a59e10093d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afe5c21cd64db4aa4b3dd37e1166fa75') in 0.318765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/FlyingSystem/CreatureFlyingSystem/Demo/Scripts/EagleController.cs
+  artifactKey: Guid(6aaf90fcfc89f8d4fb526eeae4fc8890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/CreatureFlyingSystem/Demo/Scripts/EagleController.cs using Guid(6aaf90fcfc89f8d4fb526eeae4fc8890) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b72bdfdd0e3c0223e63535fd1241f9bc') in 0.029426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Customizable Skybox/Model/Materials/pine tree green.mat
+  artifactKey: Guid(b67fe0ad79964244383e7633743fcc6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Customizable Skybox/Model/Materials/pine tree green.mat using Guid(b67fe0ad79964244383e7633743fcc6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c82142c948f27aac04b15e64a60788d') in 0.230619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Drone
+  artifactKey: Guid(50148dfb40727ee49bdfed5d767f760b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Drone using Guid(50148dfb40727ee49bdfed5d767f760b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce24e346ba04e85061a45294553773bb') in 0.023228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scripts/movement1.cs
+  artifactKey: Guid(3a47246641d7894459dc75b1f2905b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/movement1.cs using Guid(3a47246641d7894459dc75b1f2905b25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51dc0d15b0fe45e4dcfdf4fc5f0b6a78') in 0.020435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FlyingSystem/HumanoidAircraftFlyingSystem/Demo/Prefabs/HumanoidAircraft.prefab
+  artifactKey: Guid(c71831e74efbfb7459df01becb1f0435) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FlyingSystem/HumanoidAircraftFlyingSystem/Demo/Prefabs/HumanoidAircraft.prefab using Guid(c71831e74efbfb7459df01becb1f0435) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abd7b46a222eee9c4eddf37974df77a1') in 0.099535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sand textures pack
+  artifactKey: Guid(8eac370c38b52e14d875b112483c161e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sand textures pack using Guid(8eac370c38b52e14d875b112483c161e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '62afb9eab60acd9952e25f7f47dac44a') in 0.117015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FlyingSystem/CreatureFlyingSystem/Demo/Mesh/Eagle/Materials/BeakMaterial.mat
+  artifactKey: Guid(6d6b3376ccf60be4aae1d3e935f084ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/CreatureFlyingSystem/Demo/Mesh/Eagle/Materials/BeakMaterial.mat using Guid(6d6b3376ccf60be4aae1d3e935f084ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '086d62674703cc4f7206fb9fdef1c792') in 0.098293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Drone/Materials/DroneMaterial.mat
+  artifactKey: Guid(969f3d4578a1ba941aa5d59e78d71303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Drone/Materials/DroneMaterial.mat using Guid(969f3d4578a1ba941aa5d59e78d71303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6646463a287bd3578d9e9d3f1e93393e') in 0.027891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FlyingSystem/Demo_Main/Mesh/Environment
+  artifactKey: Guid(9ebdf50db199847488cd615ac59c6591) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/Demo_Main/Mesh/Environment using Guid(9ebdf50db199847488cd615ac59c6591) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4645d2d8d0f52185ace3484cf3cbb1a') in 0.046557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/FlyingSystem/CreatureFlyingSystem/Demo/Mesh
+  artifactKey: Guid(99b161c9e430eed4cba4610186e83335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/CreatureFlyingSystem/Demo/Mesh using Guid(99b161c9e430eed4cba4610186e83335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcba59f723c66756e5e88d0d884c3bb1') in 0.045187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 2-1-0.asset
+  artifactKey: Guid(ab97ba8c3296f724191df7165c401f86) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Haven/Free Fantasy Terrain Textures/Demo/Terrains/Terrain 2-1-0.asset using Guid(ab97ba8c3296f724191df7165c401f86) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e638e18845118e35deb2e2c8e31f429f') in 0.110195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Helicopter/Materials/GreenMaterial.mat
+  artifactKey: Guid(63c744a2dff7d7945b81369101677b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Helicopter/Materials/GreenMaterial.mat using Guid(63c744a2dff7d7945b81369101677b35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '935e0064461a8f215359f2fd60ce602d') in 0.025704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/FlyingSystem/FlyingVehicleFlyingSystem/Demo/Scenes/FlyingVehicleFlyingSystem.unity
+  artifactKey: Guid(0e6b6e22a316cc041b725e921f9e7524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/FlyingVehicleFlyingSystem/Demo/Scenes/FlyingVehicleFlyingSystem.unity using Guid(0e6b6e22a316cc041b725e921f9e7524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ea574758e501dc5a052cfed15372a66') in 0.042706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FlyingSystem/AircraftFlyingSystem/Demo/Mesh
+  artifactKey: Guid(815c6cabd25c07e4fb1dad8e0778989b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/AircraftFlyingSystem/Demo/Mesh using Guid(815c6cabd25c07e4fb1dad8e0778989b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '620d6a96c1450f05101d7a7b8f880c0d') in 0.076217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sand textures pack/Sand 03/Sand pattern 03.mat
+  artifactKey: Guid(065a3f32f15eafa4c8ade8c33a885e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sand textures pack/Sand 03/Sand pattern 03.mat using Guid(065a3f32f15eafa4c8ade8c33a885e9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9179b5e5685e1223aeb9a6ba5cd2f968') in 0.072499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/FlyingSystem/FlyingVehicleFlyingSystem/Demo/Scripts/FlyingCarController.cs
+  artifactKey: Guid(a743dfc6d10786247871966ae28fc23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/FlyingVehicleFlyingSystem/Demo/Scripts/FlyingCarController.cs using Guid(a743dfc6d10786247871966ae28fc23e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07c56f634c6fb43240d88e47719f8983') in 0.025116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Drone/Materials
+  artifactKey: Guid(1f91f52279d62aa41a31ecc226026507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Drone/Materials using Guid(1f91f52279d62aa41a31ecc226026507) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42d11401d86e0be9bc4757f32c2523ed') in 0.032939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63c10f06828d7ef438f9d26062826729') in 0.143374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FlyingSystem/CreatureFlyingSystem/Demo/Audio
+  artifactKey: Guid(26589f91655515740a563df2d94bbd4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/CreatureFlyingSystem/Demo/Audio using Guid(26589f91655515740a563df2d94bbd4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6588dc3e651dfbce9f32542749c3a538') in 0.049512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/FlyingSystem/AircraftFlyingSystem/Demo/Mesh/Jet/Materials/GlassMaterial.mat
+  artifactKey: Guid(d6c73f099b6225448b24418caac03495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/AircraftFlyingSystem/Demo/Mesh/Jet/Materials/GlassMaterial.mat using Guid(d6c73f099b6225448b24418caac03495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '218bc2abfed7eea41c0cb6b2f7a0c516') in 0.030574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FlyingSystem/Demo_Main/Scenes/Demo.unity
+  artifactKey: Guid(b6806bcb34183884cad8b19526c4d3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/Demo_Main/Scenes/Demo.unity using Guid(b6806bcb34183884cad8b19526c4d3a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'af64e38704f9954c4813cbc10fdcda6b') in 0.046018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Scripts/HelicopterController.cs
+  artifactKey: Guid(7ae1fc3f22a107447817ee14a16e69a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Scripts/HelicopterController.cs using Guid(7ae1fc3f22a107447817ee14a16e69a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8647f958cf5dd2a54a2dbd94207bdd4c') in 0.069462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/FlyingSystem/Demo_Main/Prefabs/TriggerVolume.prefab
+  artifactKey: Guid(e79330fe8318e8141a2ee95a67d8ce11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/Demo_Main/Prefabs/TriggerVolume.prefab using Guid(e79330fe8318e8141a2ee95a67d8ce11) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ebf4c3d469919feaedf99f807c32a1b') in 0.109598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/FlyingSystem/CreatureFlyingSystem/Demo/Prefabs/CustomCreature.prefab
+  artifactKey: Guid(78ab7b22bb3434b4c8e7060882e28269) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FlyingSystem/CreatureFlyingSystem/Demo/Prefabs/CustomCreature.prefab using Guid(78ab7b22bb3434b4c8e7060882e28269) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df3e0cfc3c9de2ed60037df4847a0730') in 0.023494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Customizable Skybox/Scenes
+  artifactKey: Guid(4c87f64bb2d3ca445ac1badce6b5c0d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Customizable Skybox/Scenes using Guid(4c87f64bb2d3ca445ac1badce6b5c0d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '501834c4e1b348b049ce660070f40df3') in 0.108503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.027838 seconds.
+  path: Assets/FlyingSystem/HumanoidAircraftFlyingSystem/Demo/Prefabs/HumanoidAircraft.prefab
+  artifactKey: Guid(c71831e74efbfb7459df01becb1f0435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/HumanoidAircraftFlyingSystem/Demo/Prefabs/HumanoidAircraft.prefab using Guid(c71831e74efbfb7459df01becb1f0435) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0a8c7cab9994bcef0c7eb88b20e6f51') in 0.075505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/FlyingSystem/Demo_Main/Mesh/Environment/Mountain/Mountain.fbx
+  artifactKey: Guid(d15391ec9ce857c47be28ad0b648897a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/Demo_Main/Mesh/Environment/Mountain/Mountain.fbx using Guid(d15391ec9ce857c47be28ad0b648897a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55af2c525da756b1fdc785c31c6031e5') in 0.062643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sand textures pack/Sand 03/normal.tga
+  artifactKey: Guid(6de787b941a84ab47aa819718eab2994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Sand textures pack/Sand 03/normal.tga using Guid(6de787b941a84ab47aa819718eab2994) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '867e2da30ab776fb6f2b96a1958c2612') in 0.174441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cfe4f1ab5e50468fe95859eba11a589') in 0.175639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FlyingSystem/GliderFlyingSystem/Demo/Prefabs/Parachute.prefab
+  artifactKey: Guid(7781b3b30cf6d2440868784314da3a63) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FlyingSystem/GliderFlyingSystem/Demo/Prefabs/Parachute.prefab using Guid(7781b3b30cf6d2440868784314da3a63) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bcd7b78ab5bd252c5dcbb2a997ab356d') in 0.105035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 8.299503 seconds.
+  path: Assets/FlyingSystem/AircraftFlyingSystem/Demo/Mesh/Jet/Materials/BodyMaterial.mat
+  artifactKey: Guid(dd63b7565f7d5b14aa644e92ceba9e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/AircraftFlyingSystem/Demo/Mesh/Jet/Materials/BodyMaterial.mat using Guid(dd63b7565f7d5b14aa644e92ceba9e80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de05d6f8e098d1d070cc1fbced156dbf') in 0.024914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/FlyingSystem/Demo_Main/Mesh/Environment/Weight/Materials/HandleMaterial.mat
+  artifactKey: Guid(001ad6b3944766e4796272f8441c0446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/Demo_Main/Mesh/Environment/Weight/Materials/HandleMaterial.mat using Guid(001ad6b3944766e4796272f8441c0446) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '34e0aa08f03ada76eff901cd6a55af90') in 0.014943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Drone/Materials/DroneRotorMaterial.mat
+  artifactKey: Guid(0ad33c9b75396e547830558c3a301e95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Drone/Materials/DroneRotorMaterial.mat using Guid(0ad33c9b75396e547830558c3a301e95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbefe5a7f59a7aea99d379ecd4e43e91') in 0.015154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FlyingSystem/AircraftFlyingSystem/Demo/Mesh/Airliner/Materials/TopWingMaterial.mat
+  artifactKey: Guid(a3546c2add78fc44797d7d5ecc62060f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/AircraftFlyingSystem/Demo/Mesh/Airliner/Materials/TopWingMaterial.mat using Guid(a3546c2add78fc44797d7d5ecc62060f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '046d6eaf90687d724cd3325354381c1a') in 0.014276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/FlyingSystem/GliderFlyingSystem/Demo/Mesh/ViteAerea/Materials/BaseMaterial.mat
+  artifactKey: Guid(6328c1df15e8bd64b98f822fcb7eff71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/GliderFlyingSystem/Demo/Mesh/ViteAerea/Materials/BaseMaterial.mat using Guid(6328c1df15e8bd64b98f822fcb7eff71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b1b7e420a278b91443c8b070b3815dc') in 0.015779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FlyingSystem/Demo_Main/Mesh/Environment/Weight/Materials/WeightMaterial.mat
+  artifactKey: Guid(2ff05aa08f89bbc4f9103cf428004eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/Demo_Main/Mesh/Environment/Weight/Materials/WeightMaterial.mat using Guid(2ff05aa08f89bbc4f9103cf428004eae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d74eeca811b22c27427529e644b58ef') in 0.015014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FlyingSystem/GliderFlyingSystem/Demo/Mesh/ViteAerea/Materials/ClothMaterial.mat
+  artifactKey: Guid(55b9c310c3be06c4bbee097a9f3a75e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/GliderFlyingSystem/Demo/Mesh/ViteAerea/Materials/ClothMaterial.mat using Guid(55b9c310c3be06c4bbee097a9f3a75e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '828f854cceac1fad1489f154321f4aa1') in 0.015446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FlyingSystem/CreatureFlyingSystem/Demo/Mesh/Eagle/Materials/WingMaterial.mat
+  artifactKey: Guid(f8835af2a6d85d8479630e56fd0e91cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/CreatureFlyingSystem/Demo/Mesh/Eagle/Materials/WingMaterial.mat using Guid(f8835af2a6d85d8479630e56fd0e91cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9240e984ba1c3d706a2ef10b8a85025b') in 0.015079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Helicopter/Materials/GreyMaterial.mat
+  artifactKey: Guid(95f6e7c0032bfdf49b369d17ad735b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/FlyingSystem/HelicopterFlyingSystem/Demo/Mesh/Helicopter/Materials/GreyMaterial.mat using Guid(95f6e7c0032bfdf49b369d17ad735b49) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '557f9db6fad4d574381c23b15492888c') in 0.016184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
